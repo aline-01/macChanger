@@ -13,7 +13,7 @@ if user != "root":
     exit()
 
 def logo():
-    print("""                           _____ _                            
+    print("""              _____ _
                           /  __ \ |                                 
       _ __ ___   __ _  ___| /  \/ |__   __ _ _ __   __ _  ___ _ __  
      | '_ ` _ \ / _` |/ __| |   | '_ \ / _` | '_ \ / _` |/ _ \ '__| 
@@ -65,4 +65,5 @@ else:
 
 change_mac(mac,interface)
 
+print("it's must be update")
 
