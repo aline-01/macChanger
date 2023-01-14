@@ -74,6 +74,7 @@ mac = arguments.mac
 interface = arguments.interface
 random = arguments.random
 
+mac_regex = "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$"
 if interface == None:
     print("\t [!] give me your interface")
     time.sleep(2)
@@ -83,7 +84,6 @@ if random == True:
     mac = create_mac()
 else:
     if mac == None:
-       mac_regex = "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$"
        print("\t [!] give me a mac address ")
        time.sleep(2)
        exit()
